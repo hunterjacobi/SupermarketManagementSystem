@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketManagement", "Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "UseCases\UseCases.csproj", "{BB9FA178-2681-40A4-A165-4F492A289B99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBusiness", "CoreBusiness\CoreBusiness.csproj", "{979F61E4-C3F8-4247-970F-5FA3A0391CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.DataStore.InMemory", "Plugins.DataStore.InMemory\Plugins.DataStore.InMemory.csproj", "{33A09205-28BC-4C9E-8402-B021294F10B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BB9FA178-2681-40A4-A165-4F492A289B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9FA178-2681-40A4-A165-4F492A289B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9FA178-2681-40A4-A165-4F492A289B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979F61E4-C3F8-4247-970F-5FA3A0391CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979F61E4-C3F8-4247-970F-5FA3A0391CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979F61E4-C3F8-4247-970F-5FA3A0391CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979F61E4-C3F8-4247-970F-5FA3A0391CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A09205-28BC-4C9E-8402-B021294F10B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A09205-28BC-4C9E-8402-B021294F10B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A09205-28BC-4C9E-8402-B021294F10B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A09205-28BC-4C9E-8402-B021294F10B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -82,6 +82,13 @@ using SupermarketManagement.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/SupermarketManagement/_Imports.razor"
+using CoreBusiness;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

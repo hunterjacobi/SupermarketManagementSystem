@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreBusiness.dll": {}
+        }
+      },
+      "UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../CoreBusiness/CoreBusiness.csproj",
+      "msbuildProject": "../CoreBusiness/CoreBusiness.csproj"
+    },
+    "UseCases/1.0.0": {
+      "type": "project",
+      "path": "../UseCases/UseCases.csproj",
+      "msbuildProject": "../UseCases/UseCases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "UseCases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/guccigod/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj",
+      "projectName": "Plugins.DataStore.InMemory",
+      "projectPath": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj",
+      "packagesPath": "/Users/guccigod/.nuget/packages/",
+      "outputPath": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/Plugins.DataStore.InMemory/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/guccigod/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/UseCases/UseCases.csproj": {
+              "projectPath": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/UseCases/UseCases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

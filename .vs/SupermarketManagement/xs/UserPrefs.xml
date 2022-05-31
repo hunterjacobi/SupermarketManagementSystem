@@ -1,14 +1,31 @@
 ﻿<Properties StartupConfiguration="{E0A11B9C-56D9-4B0C-A21F-B737BC372FFA}|Default">
   <MonoDevelop.Ide.ItemProperties.SupermarketManagement FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UseCases/Class1.cs">
+  <MonoDevelop.Ide.ItemProperties.CoreBusiness FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SupermarketManagement/Shared/NavMenu.razor">
     <Files>
-      <File FileName="UseCases/Class1.cs" Line="1" Column="1" />
+      <File FileName="SupermarketManagement/Startup.cs" Line="42" Column="1" />
+      <File FileName="UseCases/ViewCategoriesUseCase.cs" Line="5" Column="1" />
+      <File FileName="UseCases/IViewCategoriesUseCase.cs" Line="1" Column="1" />
+      <File FileName="SupermarketManagement/Pages/CategoriesComponent.razor" Line="8" Column="13" />
+      <File FileName="SupermarketManagement/_Imports.razor" Line="12" Column="20" />
+      <File FileName="SupermarketManagement/Shared/NavMenu.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SupermarketManagement" expanded="True">
-            <Node name="SupermarketManagement" expanded="True" />
+            <Node name="CoreBusiness" expanded="True" />
+            <Node name="Plugins.DataStore.InMemory" expanded="True" />
+            <Node name="SupermarketManagement" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="NavMenu.razor" selected="True" />
+              </Node>
+            </Node>
+            <Node name="UseCases" expanded="True">
+              <Node name="DataStorePluginInterfaces" expanded="True" />
+              <Node name="UseCaseInterfaces" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -16,6 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.UseCases FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Plugins.DataStore.InMemory FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

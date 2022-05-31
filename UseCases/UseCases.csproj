@@ -4,4 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreBusiness\CoreBusiness.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="DataStorePluginInterfaces\" />
+    <None Remove="UseCaseInterfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStorePluginInterfaces\" />
+    <Folder Include="UseCaseInterfaces\" />
+  </ItemGroup>
 </Project>

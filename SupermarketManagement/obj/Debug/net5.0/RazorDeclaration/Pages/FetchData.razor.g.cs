@@ -83,6 +83,13 @@ using SupermarketManagement.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/SupermarketManagement/_Imports.razor"
+using CoreBusiness;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/SupermarketManagement/Pages/FetchData.razor"
 using SupermarketManagement.Data;
 
