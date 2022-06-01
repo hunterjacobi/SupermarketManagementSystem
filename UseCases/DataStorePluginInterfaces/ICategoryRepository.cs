@@ -7,6 +7,8 @@ namespace UseCases.DataStorePluginInterfaces
     public interface ICategoryRepository
     {
         public IEnumerable<Category> GetCategories();
-    
+        void AddCategory(Category category);
+
+
     }
 }

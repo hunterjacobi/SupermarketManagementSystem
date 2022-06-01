@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rf2VPqnELYHo8xQ5JjcelSyWhaJxtPl4Nic3FUCDSPZ+hYcFeLgVb88WWzE7Jv93fBuJzGCiDl611rVuc3mY/g==",
+  "dgSpecHash": "ipk64NkwsOzhb5Wm3LqPBGuROZU91Y0LPJtLCkG7Cf6GZwQKfUpGnDeJD/eBWtc46W+IZ0ILSATiHSxrFWUqjg==",
   "success": true,
   "projectFilePath": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj",
   "expectedPackageFiles": [],

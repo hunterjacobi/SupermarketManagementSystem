@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{E0A11B9C-56D9-4B0C-A21F-B737BC372FFA}|Default">
-  <MonoDevelop.Ide.ItemProperties.SupermarketManagement FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.CoreBusiness FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SupermarketManagement/Shared/NavMenu.razor">
+  <MonoDevelop.Ide.ItemProperties.SupermarketManagement PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SupermarketManagement/Pages/CategoriesComponent.razor">
     <Files>
-      <File FileName="SupermarketManagement/Startup.cs" Line="42" Column="1" />
-      <File FileName="UseCases/ViewCategoriesUseCase.cs" Line="5" Column="1" />
-      <File FileName="UseCases/IViewCategoriesUseCase.cs" Line="1" Column="1" />
-      <File FileName="SupermarketManagement/Pages/CategoriesComponent.razor" Line="8" Column="13" />
+      <File FileName="SupermarketManagement/Pages/AddCategoryComponent.razor" Line="37" Column="1" />
+      <File FileName="Plugins.DataStore.InMemory/CategoryInMemoryRepository.cs" Line="32" Column="38" />
+      <File FileName="UseCases/UseCaseInterfaces/IAddCategoryUseCase.cs" Line="1" Column="1" />
+      <File FileName="UseCases/AddCategoryUseCase.cs" Line="7" Column="58" />
       <File FileName="SupermarketManagement/_Imports.razor" Line="12" Column="20" />
-      <File FileName="SupermarketManagement/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="SupermarketManagement/Pages/CategoriesComponent.razor" Line="29" Column="75" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,10 +16,10 @@
             <Node name="CoreBusiness" expanded="True" />
             <Node name="Plugins.DataStore.InMemory" expanded="True" />
             <Node name="SupermarketManagement" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Shared" expanded="True">
-                <Node name="NavMenu.razor" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CategoriesComponent.razor" selected="True" />
               </Node>
+              <Node name="Shared" expanded="True" />
             </Node>
             <Node name="UseCases" expanded="True">
               <Node name="DataStorePluginInterfaces" expanded="True" />
@@ -31,9 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UseCases FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Plugins.DataStore.InMemory FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

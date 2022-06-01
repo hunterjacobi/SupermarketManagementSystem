@@ -39,7 +39,7 @@
       "outputPath": "/Users/guccigod/Documents/CodingProjects/Blazor/SupermarketManage/SupermarketManagement/UseCases/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/guccigod/.config/NuGet/NuGet.Config"
+        "/Users/guccigod/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
